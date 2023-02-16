@@ -11,3 +11,7 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 POST     /addProduct                  controllers.EsProductController.addProduct(request : Request)
 GET      /getProductById/:id          controllers.EsProductController.getProductById(id : String)
 GET      /getBySpecId/:specId         controllers.EsProductController.getBySpecId(specId : String)
+
+POST     /addProduct1                  controllers.ProductController.addProduct1(request : Request)
+GET      /getByUserId/:user_id          controllers.ProductController.getByUserId(user_id : Integer)
+
