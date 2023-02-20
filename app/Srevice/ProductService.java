@@ -47,11 +47,5 @@ public class ProductService {
         return result.toString();
     }
 
-//    public HashMap<Long, Product> getProduct() {
-//        return product;
-//    }
-//
-//    public void setProduct(HashMap<Long, Product> product) {
-//        this.product = product;
-//    }
+
 }
